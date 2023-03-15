@@ -1,6 +1,7 @@
 import request from './utils/request'
 
 export class Crud {
+  baseUrl:string = ''
   constructor({ app }) {
     this.data = {
       app
